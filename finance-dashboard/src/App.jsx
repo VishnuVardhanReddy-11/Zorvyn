@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Navbar from "./components/NavBar";
+import Navbar from "./components/t";
 import Dashboard from "./components/Dashboard";
 import Charts from "./components/Charts";
 import Transactions from "./components/Transactions";
@@ -7,7 +7,7 @@ import Insights from "./components/Insights";
 
 function App() {
   const [role, setRole] = useState("viewer");
-  const [dark, setDark] = useState(false);
+  const [dark, setDark] = useState(false);  
 
   const [transactions, setTransactions] = useState(() => {
     const saved = localStorage.getItem("transactions");

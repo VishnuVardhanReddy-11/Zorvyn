@@ -1,4 +1,4 @@
-const Navbar = ({ role, setRole, dark, setDark }) => {
+const t = ({ role, setRole, dark, setDark }) => {
   return (
     <div className="flex justify-between items-center bg-white dark:bg-gray-800 p-4 rounded-xl shadow-md">
       <h1 className="text-xl font-bold">💰 Finance Dashboard</h1>
@@ -24,4 +24,4 @@ const Navbar = ({ role, setRole, dark, setDark }) => {
   );
 };
 
-export default Navbar;
+export default t;
